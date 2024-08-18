@@ -1,0 +1,135 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #4a90e2, #f5f7fa);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #333;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 1px;
+    width: 0.0000000000001px;
+    background-image: url('https://images.unsplash.com/photo-1506748686214e9df14e7f1f9d7b0ad16b2c5b2cfb2a'); /* Add a background image for a geo-exploration feel */
+    background-size: cover;
+    background-position: center;
+    background-blur: 5px;
+    color: #ffffff86;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background for better text readability */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #f1c40f; /* Gold color to evoke a sense of discovery */
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: #fff;
+    color: #333;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #27ae60; /* Green color to symbolize exploration and nature */
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2ecc71;
+}
+
+a {
+    color: #f39c12;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.hidden {
+    display: none;
+}
+
+p {
+    text-align: center;
+    font-size: 14px;
+    margin: 10px 0;
+}
+/* Using a local or external image as a background */
+body {
+    background: url('https://i.pinimg.com/originals/bd/54/da/bd54dae329eb2394e7f3d7dd534675d0.gif') no-repeat center center fixed; /* Change this URL to your image path */
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for the container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Form styling */
+.form {
+    background-color: rgba(255, 255, 255, 0.9); /* White with some transparency */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Additional styling for the forms */
+#login-form, #registration-form {
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Button styling */
+.map-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.map-container button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Blue color */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.map-container button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

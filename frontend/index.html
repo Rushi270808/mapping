@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Registration</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        /* Map container styling */
+        #map {
+            height: 50px;
+            width: 10%;
+            display: none; /* Hide map by default */
+        }
+        /* Container for the additional form */
+        #additional-form {
+            display: none; /* Hide additional form by default */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="form-container">
+            <div id="login-form" class="form">
+                <h2>Login</h2>
+                <input type="text" id="login-username-email" placeholder="Username/Email" required>
+                <input type="password" id="login-password" placeholder="Password" required>
+                <button onclick="login()">Login</button>
+                <p>Don't have an account? <a href="#" onclick="showRegistration()">Register</a></p>
+            </div>
+            
+            <div id="registration-form" class="form hidden">
+                <h2>Register</h2>
+                <input type="text" id="register-fullname" placeholder="Full Name" required>
+                <input type="text" id="register-username-email" placeholder="Username/Email" required>
+                <input type="password" id="register-password" placeholder="Password" required>
+                <button onclick="register()">Register</button>
+                <p>Already have an account? <a href="#" onclick="showLogin()">Login</a></p>
+            </div>
+
+            <!-- New form for name, amenity, and location -->
+            <div id="additional-form" class="form">
+                <h2>Additional Details</h2>
+                <input type="text" id="name" placeholder="Name" required>
+                <input type="text" id="amenity" placeholder="Amenity" required>
+                <input type="text" id="location" placeholder="Location" required>
+                <button onclick="submitDetails()">Submit</button>
+                <p><a href="#" onclick="goToMap()">Go to Map</a></p>
+            </div>
+        </div>
+
+        <!-- Map container -->
+        <div id="map"></div>
+    </div>
+    
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

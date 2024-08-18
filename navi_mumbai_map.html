@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fb2746426db066435db641cbc7b32111 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_fb2746426db066435db641cbc7b32111" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_fb2746426db066435db641cbc7b32111 = L.map(
+                "map_fb2746426db066435db641cbc7b32111",
+                {
+                    center: [19.031266216666605, 73.01773746666663],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ca9b7d58a2d8757b800ddde027705df2 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_ca9b7d58a2d8757b800ddde027705df2.addTo(map_fb2746426db066435db641cbc7b32111);
+        
+    
+            var marker_3c91f656b6efef5d31af89b1aabc21ac = L.marker(
+                [19.0299753, 73.019897],
+                {}
+            ).addTo(map_fb2746426db066435db641cbc7b32111);
+        
+    
+            var icon_415a56ceeb46b988fac77da0b5448307 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3c91f656b6efef5d31af89b1aabc21ac.setIcon(icon_415a56ceeb46b988fac77da0b5448307);
+        
+    
+        var popup_30e8905b7037edd0e127c031bd90366c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_82957e852bfb992d290ccb7da239ae38 = $(`<div id="html_82957e852bfb992d290ccb7da239ae38" style="width: 100.0%; height: 100.0%;">             <b>Name:</b> Rock Garden<br>             <b>Full Address:</b> Nerul East, Sector 21, Nerul, Navi Mumbai, Maharashtra 400706<br>             <b>Categories:</b> Gardens<br>             <b>Phone:</b> g3avZuL_HraE4-EP09DqkA4<br>             <b>Average Rating:</b> 4.1<br>             <b>Cluster:</b> 6<br>             <b>Location:</b> Nerul East, Sector 21, Nerul, Navi Mumbai, Maharashtra 400706             </div>`)[0];
+                popup_30e8905b7037edd0e127c031bd90366c.setContent(html_82957e852bfb992d290ccb7da239ae38);
+            
+        
+
+        marker_3c91f656b6efef5d31af89b1aabc21ac.bindPopup(popup_30e8905b7037edd0e127c031bd90366c)
+        ;
+
+        
+    
+    
+            var marker_1ff80802f3894dec2a6e8067b0bb9fc6 = L.marker(
+                [19.0429426, 73.0165270999999],
+                {}
+            ).addTo(map_fb2746426db066435db641cbc7b32111);
+        
+    
+            var icon_6ab5adeaf44f753f8f533a19cbf2dc13 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1ff80802f3894dec2a6e8067b0bb9fc6.setIcon(icon_6ab5adeaf44f753f8f533a19cbf2dc13);
+        
+    
+        var popup_b1053daee14bb332b24fcb7a5191bf98 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_3ff2c5496d85f7b53f1655feb08a93dc = $(`<div id="html_3ff2c5496d85f7b53f1655feb08a93dc" style="width: 100.0%; height: 100.0%;">             <b>Name:</b> Chatrapathi Shahu Maharaj Udyan<br>             <b>Full Address:</b> 22V8+98W, Sector 8, Nerul, Navi Mumbai, Maharashtra 400706<br>             <b>Categories:</b> Gardens<br>             <b>Phone:</b> g3avZuL_HraE4-EP09DqkA4<br>             <b>Average Rating:</b> 4.3<br>             <b>Cluster:</b> 6<br>             <b>Location:</b> 22V8+98W, Sector 8, Nerul, Navi Mumbai, Maharashtra 400706             </div>`)[0];
+                popup_b1053daee14bb332b24fcb7a5191bf98.setContent(html_3ff2c5496d85f7b53f1655feb08a93dc);
+            
+        
+
+        marker_1ff80802f3894dec2a6e8067b0bb9fc6.bindPopup(popup_b1053daee14bb332b24fcb7a5191bf98)
+        ;
+
+        
+    
+    
+            var marker_3f3a6bc981a531cdbb3207459eb31615 = L.marker(
+                [19.032825, 73.0261526],
+                {}
+            ).addTo(map_fb2746426db066435db641cbc7b32111);
+        
+    
+            var icon_09b9cc586968f6f74415a2581fa86a43 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3f3a6bc981a531cdbb3207459eb31615.setIcon(icon_09b9cc586968f6f74415a2581fa86a43);
+        
+    
+        var popup_aa8af32e0ad39eb623fbd1dbef19b210 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a968e2719d5788f4563bc1611810a223 = $(`<div id="html_a968e2719d5788f4563bc1611810a223" style="width: 100.0%; height: 100.0%;">             <b>Name:</b> R R Patil Garden<br>             <b>Full Address:</b> Gate no-2, Sector 19A Nerul Rd, nearby Gokul CHS, Nerul East, Sector 19A, Nerul, Navi Mumbai, Maharashtra 400706<br>             <b>Categories:</b> Gardens<br>             <b>Phone:</b> g3avZuL_HraE4-EP09DqkA4<br>             <b>Average Rating:</b> 4.4<br>             <b>Cluster:</b> 6<br>             <b>Location:</b> Gate no-2, Sector 19A Nerul Rd, nearby Gokul CHS, Nerul East, Sector 19A, Nerul, Navi Mumbai, Maharashtra 400706             </div>`)[0];
+                popup_aa8af32e0ad39eb623fbd1dbef19b210.setContent(html_a968e2719d5788f4563bc1611810a223);
+            
+        
+
+        marker_3f3a6bc981a531cdbb3207459eb31615.bindPopup(popup_aa8af32e0ad39eb623fbd1dbef19b210)
+        ;
+
+        
+    
+    
+            var marker_4df9474e7162b9487625e54a3ad78e26 = L.marker(
+                [19.026286, 73.0118983],
+                {}
+            ).addTo(map_fb2746426db066435db641cbc7b32111);
+        
+    
+            var icon_c936cb92205083b7bc5e7e9250d56380 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4df9474e7162b9487625e54a3ad78e26.setIcon(icon_c936cb92205083b7bc5e7e9250d56380);
+        
+    
+        var popup_c7088245d5a2a45d3ef019f341526162 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_806c818507a8691f9d00d785eea4bd1c = $(`<div id="html_806c818507a8691f9d00d785eea4bd1c" style="width: 100.0%; height: 100.0%;">             <b>Name:</b> Jewel of Navi Mumbai (JNM)<br>             <b>Full Address:</b> 22G6+GQ6, Sector 26, Nerul, Navi Mumbai, Maharashtra 400706<br>             <b>Categories:</b> Gardens<br>             <b>Phone:</b> g3avZuL_HraE4-EP09DqkA4<br>             <b>Average Rating:</b> 4.4<br>             <b>Cluster:</b> 6<br>             <b>Location:</b> 22G6+GQ6, Sector 26, Nerul, Navi Mumbai, Maharashtra 400706             </div>`)[0];
+                popup_c7088245d5a2a45d3ef019f341526162.setContent(html_806c818507a8691f9d00d785eea4bd1c);
+            
+        
+
+        marker_4df9474e7162b9487625e54a3ad78e26.bindPopup(popup_c7088245d5a2a45d3ef019f341526162)
+        ;
+
+        
+    
+    
+            var marker_3fbc7261fb1d327420dd1e8ce989944d = L.marker(
+                [19.0325527999999, 73.0153523],
+                {}
+            ).addTo(map_fb2746426db066435db641cbc7b32111);
+        
+    
+            var icon_313aaf26f728836e400fcfe146adb9c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3fbc7261fb1d327420dd1e8ce989944d.setIcon(icon_313aaf26f728836e400fcfe146adb9c6);
+        
+    
+        var popup_d768d2340039e9dd842495f64b5b8a7d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_35df35662409f325df29b72015be411c = $(`<div id="html_35df35662409f325df29b72015be411c" style="width: 100.0%; height: 100.0%;">             <b>Name:</b> Balaji Garden<br>             <b>Full Address:</b> 7, Brahmagiri Rd, Sector 22, Nerul West, Brahmagiri Rd, Sector 22, Nerul West, Navi Mumbai, Maharashtra 400706<br>             <b>Categories:</b> Gardens<br>             <b>Phone:</b> g3avZuL_HraE4-EP09DqkA4<br>             <b>Average Rating:</b> 4.2<br>             <b>Cluster:</b> 6<br>             <b>Location:</b> 7, Brahmagiri Rd, Sector 22, Nerul West, Brahmagiri Rd, Sector 22, Nerul West, Navi Mumbai, Maharashtra 400706             </div>`)[0];
+                popup_d768d2340039e9dd842495f64b5b8a7d.setContent(html_35df35662409f325df29b72015be411c);
+            
+        
+
+        marker_3fbc7261fb1d327420dd1e8ce989944d.bindPopup(popup_d768d2340039e9dd842495f64b5b8a7d)
+        ;
+
+        
+    
+    
+            var marker_676b40d95b351da3415a5b18e598a22a = L.marker(
+                [19.0440009999999, 73.0262518999999],
+                {}
+            ).addTo(map_fb2746426db066435db641cbc7b32111);
+        
+    
+            var icon_9571c600d01625a5bb085572a2a819e2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_676b40d95b351da3415a5b18e598a22a.setIcon(icon_9571c600d01625a5bb085572a2a819e2);
+        
+    
+        var popup_1b67e5237583aaa060f010691d778e74 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_9a5aabd462e80ce88a59168c1ccb7d9a = $(`<div id="html_9a5aabd462e80ce88a59168c1ccb7d9a" style="width: 100.0%; height: 100.0%;">             <b>Name:</b> Dr DY Patil Botanical Garden<br>             <b>Full Address:</b> 22VG+JG2, Sector 7, Nerul, Navi Mumbai, Maharashtra 400706<br>             <b>Categories:</b> Gardens<br>             <b>Phone:</b> g3avZuL_HraE4-EP09DqkA4<br>             <b>Average Rating:</b> 4.1<br>             <b>Cluster:</b> 6<br>             <b>Location:</b> 22VG+JG2, Sector 7, Nerul, Navi Mumbai, Maharashtra 400706             </div>`)[0];
+                popup_1b67e5237583aaa060f010691d778e74.setContent(html_9a5aabd462e80ce88a59168c1ccb7d9a);
+            
+        
+
+        marker_676b40d95b351da3415a5b18e598a22a.bindPopup(popup_1b67e5237583aaa060f010691d778e74)
+        ;
+
+        
+    
+    
+            var marker_fcc3944e43a8c52297b7c09fe96dfc8f = L.marker(
+                [19.0214732, 73.0110292999999],
+                {}
+            ).addTo(map_fb2746426db066435db641cbc7b32111);
+        
+    
+            var icon_f09f36b3532d35c51362cbb61760cb8f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fcc3944e43a8c52297b7c09fe96dfc8f.setIcon(icon_f09f36b3532d35c51362cbb61760cb8f);
+        
+    
+        var popup_0851605a0b0341762459c994f76631cb = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_57f1190d2014a795f7c5641899909699 = $(`<div id="html_57f1190d2014a795f7c5641899909699" style="width: 100.0%; height: 100.0%;">             <b>Name:</b> Karave Garden<br>             <b>Full Address:</b> Sector 26, Nerul, Navi Mumbai, Maharashtra 400706<br>             <b>Categories:</b> Gardens<br>             <b>Phone:</b> g3avZuL_HraE4-EP09DqkA4<br>             <b>Average Rating:</b> 4.4<br>             <b>Cluster:</b> 6<br>             <b>Location:</b> Sector 26, Nerul, Navi Mumbai, Maharashtra 400706             </div>`)[0];
+                popup_0851605a0b0341762459c994f76631cb.setContent(html_57f1190d2014a795f7c5641899909699);
+            
+        
+
+        marker_fcc3944e43a8c52297b7c09fe96dfc8f.bindPopup(popup_0851605a0b0341762459c994f76631cb)
+        ;
+
+        
+    
+    
+            var marker_dda3a6c3c04cd427ab36ac60f1c15282 = L.marker(
+                [19.0397894999999, 73.0081733999999],
+                {}
+            ).addTo(map_fb2746426db066435db641cbc7b32111);
+        
+    
+            var icon_5720c0e57f5c0f434ebb276f6a16d78e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dda3a6c3c04cd427ab36ac60f1c15282.setIcon(icon_5720c0e57f5c0f434ebb276f6a16d78e);
+        
+    
+        var popup_41b74491f433619a0746413ce64e68f8 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_cc46c0240eec404b8e1f58b426077c1f = $(`<div id="html_cc46c0240eec404b8e1f58b426077c1f" style="width: 100.0%; height: 100.0%;">             <b>Name:</b> Palm Beach Road Garden<br>             <b>Full Address:</b> 22Q5+W77, Dharshana Society, Sector 14, Nerul, Navi Mumbai, Maharashtra 400706<br>             <b>Categories:</b> Gardens<br>             <b>Phone:</b> g3avZuL_HraE4-EP09DqkA4<br>             <b>Average Rating:</b> 4<br>             <b>Cluster:</b> 6<br>             <b>Location:</b> 22Q5+W77, Dharshana Society, Sector 14, Nerul, Navi Mumbai, Maharashtra 400706             </div>`)[0];
+                popup_41b74491f433619a0746413ce64e68f8.setContent(html_cc46c0240eec404b8e1f58b426077c1f);
+            
+        
+
+        marker_dda3a6c3c04cd427ab36ac60f1c15282.bindPopup(popup_41b74491f433619a0746413ce64e68f8)
+        ;
+
+        
+    
+    
+            var marker_eada2fecee1dd4752a9e2b4efed91a2c = L.marker(
+                [19.0316288999999, 73.0224022],
+                {}
+            ).addTo(map_fb2746426db066435db641cbc7b32111);
+        
+    
+            var icon_7202143f666a3ebe8605f8ed5badb70e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_eada2fecee1dd4752a9e2b4efed91a2c.setIcon(icon_7202143f666a3ebe8605f8ed5badb70e);
+        
+    
+        var popup_e74d0dc3fdcd625126f40d2e63073a84 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a497e7493c7dd0946826c13faac117d5 = $(`<div id="html_a497e7493c7dd0946826c13faac117d5" style="width: 100.0%; height: 100.0%;">             <b>Name:</b> Guru Nanak Garden<br>             <b>Full Address:</b> 35, Shree Dattatray Govingrao Walse Patil Marg, Krishan mandir Area, Sector 19, Nerul, Navi Mumbai, Maharashtra 400706<br>             <b>Categories:</b> Gardens<br>             <b>Phone:</b> g3avZuL_HraE4-EP09DqkA4<br>             <b>Average Rating:</b> 4.4<br>             <b>Cluster:</b> 6<br>             <b>Location:</b> 35, Shree Dattatray Govingrao Walse Patil Marg, Krishan mandir Area, Sector 19, Nerul, Navi Mumbai, Maharashtra 400706             </div>`)[0];
+                popup_e74d0dc3fdcd625126f40d2e63073a84.setContent(html_a497e7493c7dd0946826c13faac117d5);
+            
+        
+
+        marker_eada2fecee1dd4752a9e2b4efed91a2c.bindPopup(popup_e74d0dc3fdcd625126f40d2e63073a84)
+        ;
+
+        
+    
+    
+            var marker_32cc513e3de44b9796c7040e8fc6f21e = L.marker(
+                [19.0232366999999, 73.0217869],
+                {}
+            ).addTo(map_fb2746426db066435db641cbc7b32111);
+        
+    
+            var icon_3c9a343b408a4c304b285f1a4beb13cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_32cc513e3de44b9796c7040e8fc6f21e.setIcon(icon_3c9a343b408a4c304b285f1a4beb13cb);
+        
+    
+        var popup_0070a7dc41ef6267ca2c32d97a5244c0 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_df19d8998f9a1119309be37b83cf9e30 = $(`<div id="html_df19d8998f9a1119309be37b83cf9e30" style="width: 100.0%; height: 100.0%;">             <b>Name:</b> Millinium Park Garden<br>             <b>Full Address:</b> 22FC+7PV, Nerul East, Sector 25, Nerul, Navi Mumbai, Maharashtra 400706<br>             <b>Categories:</b> Gardens<br>             <b>Phone:</b> g3avZuL_HraE4-EP09DqkA4<br>             <b>Average Rating:</b> 5<br>             <b>Cluster:</b> 6<br>             <b>Location:</b> 22FC+7PV, Nerul East, Sector 25, Nerul, Navi Mumbai, Maharashtra 400706             </div>`)[0];
+                popup_0070a7dc41ef6267ca2c32d97a5244c0.setContent(html_df19d8998f9a1119309be37b83cf9e30);
+            
+        
+
+        marker_32cc513e3de44b9796c7040e8fc6f21e.bindPopup(popup_0070a7dc41ef6267ca2c32d97a5244c0)
+        ;
+
+        
+    
+    
+            var marker_fc2f3064e7509833b7a2fa8e7be5ce13 = L.marker(
+                [19.0286781999999, 73.0222302999999],
+                {}
+            ).addTo(map_fb2746426db066435db641cbc7b32111);
+        
+    
+            var icon_70206b0caa9dc35c71bacdd4be22c1b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fc2f3064e7509833b7a2fa8e7be5ce13.setIcon(icon_70206b0caa9dc35c71bacdd4be22c1b1);
+        
+    
+        var popup_281a1382396b199d518401dfc26a5385 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_61df2c550fad85d362a0b81b2e6fa198 = $(`<div id="html_61df2c550fad85d362a0b81b2e6fa198" style="width: 100.0%; height: 100.0%;">             <b>Name:</b> Adi Jagadguru Shree Shankaracharya Garden<br>             <b>Full Address:</b> 22HC+FVH, Morning Walkers Association Marg, Nerul East, Sector 21, Nerul, Navi Mumbai, Maharashtra 400706<br>             <b>Categories:</b> Gardens<br>             <b>Phone:</b> 022 2771 0824<br>             <b>Average Rating:</b> 4.2<br>             <b>Cluster:</b> 6<br>             <b>Location:</b> 22HC+FVH, Morning Walkers Association Marg, Nerul East, Sector 21, Nerul, Navi Mumbai, Maharashtra 400706             </div>`)[0];
+                popup_281a1382396b199d518401dfc26a5385.setContent(html_61df2c550fad85d362a0b81b2e6fa198);
+            
+        
+
+        marker_fc2f3064e7509833b7a2fa8e7be5ce13.bindPopup(popup_281a1382396b199d518401dfc26a5385)
+        ;
+
+        
+    
+    
+            var marker_64c7dd1ce4ab56365bb681e8629567db = L.marker(
+                [19.0218053999999, 73.0111483],
+                {}
+            ).addTo(map_fb2746426db066435db641cbc7b32111);
+        
+    
+            var icon_3258a579670d6acebe42ffa35fe7fe44 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_64c7dd1ce4ab56365bb681e8629567db.setIcon(icon_3258a579670d6acebe42ffa35fe7fe44);
+        
+    
+        var popup_aafb9fea7d73ceed0c6ab9b1bab0c0f3 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a0d8ec3d15c46bb5eb5b1177a3694e1e = $(`<div id="html_a0d8ec3d15c46bb5eb5b1177a3694e1e" style="width: 100.0%; height: 100.0%;">             <b>Name:</b> Ganapat Tandel Garden<br>             <b>Full Address:</b> 22C6+PFC, Sector 26, Nerul, Navi Mumbai, Maharashtra 400706<br>             <b>Categories:</b> Gardens<br>             <b>Phone:</b> pnavZtDoO-fw4-EP2rn_4AQ<br>             <b>Average Rating:</b> 4.4<br>             <b>Cluster:</b> 6<br>             <b>Location:</b> 22C6+PFC, Sector 26, Nerul, Navi Mumbai, Maharashtra 400706             </div>`)[0];
+                popup_aafb9fea7d73ceed0c6ab9b1bab0c0f3.setContent(html_a0d8ec3d15c46bb5eb5b1177a3694e1e);
+            
+        
+
+        marker_64c7dd1ce4ab56365bb681e8629567db.bindPopup(popup_aafb9fea7d73ceed0c6ab9b1bab0c0f3)
+        ;
+
+        
+    
+</script>
+</html>
